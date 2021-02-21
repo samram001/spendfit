@@ -1,0 +1,43 @@
+<div class="box_style">
+        <div class="borderBottom clearfix">
+            <h2>Account Summary</h2>
+        </div>
+        <div class="borderBottom clearfix pad15_0px">
+            <div class="col-xs-6">
+                Available Balance
+            </div>
+            <div class="col-xs-6 availableBal">
+                $ {{account_summary?.available_balance}}
+            </div>
+        </div>
+        <div class="borderBottom clearfix pad15_0px">
+            <div class="col-xs-6">
+                Forward Balance
+                <span class="amountType">${{account_summary?.forward_balance}}</span>
+            </div>
+            <div class="col-xs-6 clearfix">
+                Credit Limit
+                <span class="amountType">${{account_summary?.credit_limit}}</span>
+            </div>
+        </div>
+        <div class="borderBottom clearfix pad15_0px">
+            <div class="col-xs-6">
+                Spending Plus Adjustments
+                <span class="amountType">${{account_summary?.spending_plus_adjustments}}</span>
+            </div>
+            <div class="col-xs-6">
+                Reward Points
+                <span class="amountType rewardPoint">{{account_summary?.reward_points}}</span>
+            </div>
+        </div>
+        <div class="clearfix pad15_0px">
+            <div class="col-xs-6">
+                <i class="fa fa-file-text-o"></i> Download Statement
+            </div>
+            <div class="col-xs-6">
+                <i class="fa fa-file-text-o"></i> View all Statements
+            </div>
+        </div>
+        
+        
+    </div>

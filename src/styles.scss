@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.width100p { width:100%; }
+.margin0imp{margin:0!important}
+.marginTop15px { margin-top: 15px; }
+.marginBot15px { margin-bottom: 15px; }
+.marginTop20px { margin-top: 20px; }
+.pad0{padding: 0}
+.padleft0{padding-left: 0}
+.padright0{padding-right: 0}
+.pad15_0px{padding: 15px 0}
+.padTop4px{padding-top: 4px;}
+.font-size30px {font-size:30px;}
+.font-bold {font-weight: bold}
+.box_style {
+    border:1px solid #ccc;
+    border-radius: 4px;
+    background-color: #FFF;
+    padding: 10px 15px;
+}
+.row {
+    margin-bottom: 15px;
+}
+.borderBottom {
+    border-bottom: 1px solid #ccc;
+}
+.borderRight {
+    border-right: 2px solid #ccc;
+}
+.amountType {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+

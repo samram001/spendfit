@@ -1,0 +1,36 @@
+<div class="homePage marginTop15px">
+    <div class="row">
+        <div class="calendarInput col-md-5 col-sm-5 col-xs-12">
+            <p-calendar [(ngModel)]="rangeDates" selectionMode="range" (onSelect)="rangeOnSelect($event)" [readonlyInput]="true" dateFormat="dd M yy" inputId="range"></p-calendar>
+        </div>
+        <div class="col-md-7 col-sm-7 col-xs-12">
+            <div class="col-xs-5 pull-right userAction">
+                <div class="col-xs-9 text-right padTop4px">
+                    <span class="userName font-weight-bold">Christopher Walker</span>
+                    <span class="userCompany ">ACME CORP</span>
+                </div>
+                <div class="col-xs-3 rightIcon">
+                    <span class="userIcon"><i class="fa fa-user"></i></span>
+                    <span class="moreIcon"><i class="fa fa-chevron-down"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-5 col-sm-5 col-xs-12">
+            <app-amount-summary></app-amount-summary>
+        </div>
+        <div class="col-md-7 col-sm-7 col-xs-12">
+            <app-spending-by-category ></app-spending-by-category>
+        </div>
+    </div>
+    
+    <div class="row">
+        <app-payment-transaction></app-payment-transaction>
+    </div>
+
+    
+    
+</div>
+

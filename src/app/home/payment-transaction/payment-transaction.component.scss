@@ -1,0 +1,15 @@
+.transactionAmount {
+    font-size: 21px;
+    font-weight: 500;
+    color:#3e7b45;
+}
+.paymentAmount {
+    font-size: 21px;
+    font-weight: 500;
+}
+.desc {
+    font-size: 21px;
+}
+form input, :host form .p-dropdown, form .p-calendar {
+    width: 100%;
+}

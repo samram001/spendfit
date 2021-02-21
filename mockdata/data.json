@@ -1,0 +1,144 @@
+{
+  "menu": [
+    {
+      "title": "menu1",
+      "data": [
+        {
+          "icon": "fa fa-home",
+          "name": "Home"
+        },
+        {
+          "icon": "fa fa-credit-card",
+          "name": "My Card"
+        },
+        {
+          "icon": "fa fa-ticket",
+          "name": "Transactions"
+        },
+        {
+          "icon": "fa fa-envelope-o",
+          "name": "Notifications"
+        },
+        {
+          "icon": "fa fa-paypal",
+          "name": "Payments"
+        }
+      ]
+    },
+    {
+      "title": "menu2",
+      "data": [
+        {
+          "icon": "fa fa-bank",
+          "name": "Departments"
+        },
+        {
+          "icon": "fa fa-users",
+          "name": "Users"
+        },
+        {
+          "icon": "fa fa-database",
+          "name": "Audit Logs"
+        }
+      ]
+    },
+    {
+      "title": "menu3",
+      "data": [
+        {
+          "icon": "fa fa-cog",
+          "name": "Settings"
+        }
+      ]
+    }
+  ],
+  "account_summary": [
+    {
+      "id": 0,
+      "available_balance": "6740.50",
+      "forward_balance": "2151.50",
+      "credit_limit": "10000",
+      "spending_plus_adjustments": "1208",
+      "reward_points": "12000",
+      "amount_due": "500",
+      "due_date": "Thu Dec 10 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "default_range1": "Mon Nov 16 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "default_range2": "Tue Dec 15 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "transaction_record": 8
+    }
+  ],
+  "transactions": [
+    {
+      "id": 0,
+      "description": "United Airways",
+      "category": "Travel",
+      "type": "Posted",
+      "date": "Mon Nov 30 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "amount": "58.50"
+    },
+    {
+      "id": 1,
+      "description": "United Airways",
+      "category": "Travel",
+      "type": "Posted",
+      "date": "Mon Nov 30 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "amount": "158.50"
+    },
+    {
+      "id": 2,
+      "description": "United Airways",
+      "category": "Travel",
+      "type": "Posted",
+      "date": "Mon Nov 30 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "amount": "1158.50"
+    },
+    {
+      "id": 3,
+      "description": "United Airways",
+      "category": "Travel",
+      "type": "Posted",
+      "date": "Mon Nov 30 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "amount": "258.50"
+    },
+    {
+      "id": 4,
+      "description": "Chase Checking",
+      "category": "Travel",
+      "type": "Scheduled",
+      "date": "Mon Nov 30 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "amount": "100"
+    },
+    {
+      "id": 5,
+      "description": "Chase Checking",
+      "category": "Travel",
+      "type": "Processed",
+      "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "amount": "500"
+    },
+    {
+      "id": 6,
+      "description": "Chase Checking",
+      "category": "Travel",
+      "type": "Processed",
+      "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "amount": "500"
+    },
+    {
+      "description": "United Airways",
+      "category": "Travel",
+      "type": "Posted",
+      "date": "2020-12-09T18:30:00.000Z",
+      "amount": "500",
+      "id": 7
+    },
+    {
+      "description": "United Airways",
+      "category": "Travel",
+      "type": "Posted",
+      "date": "2020-12-18T18:30:00.000Z",
+      "amount": "500",
+      "id": 8
+    }
+  ]
+}

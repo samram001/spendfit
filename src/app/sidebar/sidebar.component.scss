@@ -1,0 +1,20 @@
+.menu {
+    list-style: none;
+    padding: 0px;
+    li:not(.split) {
+        padding: 10px 16px;
+        i {
+            font-size: 18px;
+            padding-right: 8px;
+        }
+    }
+    li:hover:not(.split) {
+        background-color: #555d6b;
+        color: #FFF;
+        border-radius: 3px;
+    }
+    li.split {
+        border: 1px solid #DDD;
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,42 @@
+$color-ccc:#ccc;
+
+:host ::ng-deep .calendarInput {
+    .p-calendar {
+        display: block;
+    }
+    input {
+        width:100%;
+        font-size: 20px;
+    }
+}
+.homePage {
+    .userAction {
+        background-color: #FFF;
+        box-shadow: 3px 3px 2px 2px $color-ccc;
+        border-radius: 4px;
+        border: 1px solid $color-ccc;
+        .userName { 
+            font-size: 16px;
+            font-weight: 400;
+            display:block;
+        }
+        .userCompany {
+            font-size: 10px;
+        }
+    }
+    .rightIcon{
+        padding: 8px 5px;
+        margin-top: 2px;
+        .userIcon { 
+            font-size: 26px;
+            border: 1px solid $color-ccc;
+            padding: 3px;
+            color: #76bad0;
+        }
+        .moreIcon {
+            padding-left: 4px;
+        }
+    }
+   
+    
+}

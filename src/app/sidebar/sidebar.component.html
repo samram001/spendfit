@@ -1,0 +1,10 @@
+<p>
+    <img class="width100p" src="assets/logo.png"/>
+</p>
+
+<ul class="menu">
+    <ng-container *ngFor="let group of menuGroup">
+        <li *ngFor="let item of group.data"><i class="{{item.icon}}"></i> {{item.name}}</li>
+        <li class="split"></li>
+    </ng-container>
+</ul>
