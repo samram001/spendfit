@@ -36,12 +36,22 @@ export class SpendingByCategoryComponent implements OnInit {
           backgroundColor: [
             "#FF6384",
             "#36A2EB",
-            "#FFCE56"
+            "#FFCE56",
+            "#008000",
+            "#FF00FF",
+            "#00FF00",
+            "#FFFF00",
+            "#800080"
           ],
           hoverBackgroundColor: [
             "#FF6384",
             "#36A2EB",
-            "#FFCE56"
+            "#FFCE56",
+            "#008000",
+            "#FF00FF",
+            "#00FF00",
+            "#FFFF00",
+            "#800080"
           ],
           pointStyle: 'circle'
         }]

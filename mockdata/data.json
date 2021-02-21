@@ -125,6 +125,70 @@
       "amount": "500"
     },
     {
+        "id": 66,
+        "description": "Chase Checking",
+        "category": "Hotel",
+        "type": "Processed",
+        "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "amount": "500"
+      },
+      {
+        "id": 66,
+        "description": "Chase Checking",
+        "category": "Hotel",
+        "type": "Posted",
+        "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "amount": "500"
+      },
+      {
+        "id": 663,
+        "description": "Chase Checking",
+        "category": "Fuel",
+        "type": "Posted",
+        "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "amount": "1000"
+      },
+      {
+        "id": 664,
+        "description": "Chase Checking",
+        "category": "Dining",
+        "type": "Posted",
+        "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "amount": "1000"
+      },
+      {
+        "id": 665,
+        "description": "Chase Checking",
+        "category": "Rentals",
+        "type": "Posted",
+        "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "amount": "1000"
+      },
+      {
+        "id": 666,
+        "description": "Chase Checking",
+        "category": "Wholesale",
+        "type": "Posted",
+        "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "amount": "1000"
+      },
+      {
+        "id": 667,
+        "description": "Chase Checking",
+        "category": "Supplies",
+        "type": "Posted",
+        "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "amount": "1000"
+      },
+      {
+        "id": 668,
+        "description": "Chase Checking",
+        "category": "Other",
+        "type": "Posted",
+        "date": "Mon Nov 18 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "amount": "1000"
+      },
+    {
       "description": "United Airways",
       "category": "Travel",
       "type": "Posted",
@@ -139,6 +203,14 @@
       "date": "2020-12-18T18:30:00.000Z",
       "amount": "500",
       "id": 8
+    },
+    {
+      "description": "United Airways",
+      "category": "Hotel",
+      "type": "Posted",
+      "date": "2020-12-17T18:30:00.000Z",
+      "amount": "1000",
+      "id": 3991
     }
   ]
 }
